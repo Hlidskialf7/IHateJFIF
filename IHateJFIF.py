@@ -1,5 +1,5 @@
 import os, sys
-folda = "C:/Users/Tsu/Desktop/test"
+folda = "C:/your/folder/here"
 for file in os.listdir(folda):
     name = os.path.join(folda,file)
     # print(infilename)
